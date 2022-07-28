@@ -7,18 +7,25 @@
     <link rel="stylesheet" href="./Consult.css" />
   </head>
   <body>
-    <div id="mySidenav" class="sidenav">
+    <div id="mySidepanel" class="sidepanel">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+        >&times;</a
+      >
       <a href="../About/about.html">About Us</a>
       <a href="../Mission/Mission.html">Mission</a>
       <a href="../Team/Team.html">Our team</a>
       <a href="../Partner/Partner.html">Partners</a>
       <a href="../Investor/Investor.html">Investment</a>
-      <a href="../Home/Home.html">Home</a>
+      <a href="../Contact/Contact.html">Contact Us</a>
       <a href="../Feed/Feed.html">Feed Formulation</a>
       <a href="../Training/Training.html">Training</a>
       <a href="../Career/Career.html">Career</a>
-      <a href="../Contact/Contact.html">Contact Us</a>
+      <a href="../Home/Home.html">Home</a>
     </div>
+
+    <button class="openbtn" onclick="openNav()">
+      &#9776;
+    </button>
     <div id="main">
       <img src="./pond.jpg" alt="#" />
       <div class="description">
@@ -27,5 +34,6 @@
         ever-changing, more competitive and complicated marketplace.
       </div>
     </div>
+    <script src="./Consult.js"></script>
   </body>
 </html>

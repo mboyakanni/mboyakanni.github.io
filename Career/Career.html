@@ -7,7 +7,10 @@
     <link rel="stylesheet" href="./Career.css" />
   </head>
   <body>
-    <div id="mySidenav" class="sidenav">
+    <div id="mySidepanel" class="sidepanel">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+        >&times;</a
+      >
       <a href="../About/about.html">About Us</a>
       <a href="../Mission/Mission.html">Mission</a>
       <a href="../Team/Team.html">Our team</a>
@@ -19,6 +22,7 @@
       <a href="../Home/Home.html">Home</a>
       <a href="../Contact/Contact.html">Contact Us</a>
     </div>
+    <button class="openbtn" onclick="openNav()">&#9776;</button>
     <div class="main">
           <h1>Careers</h1>
           <p>
@@ -48,6 +52,7 @@
             </tr>
           </table>
     </div>
+    <script src="./Career.js"></script>
     <script src="./index.js"></script>
   </body>
 </html>
