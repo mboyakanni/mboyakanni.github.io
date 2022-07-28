@@ -612,6 +612,7 @@ h1 {
   #body{
     margin-left: 250px; /* Same as the width of the sidebar */
     padding: 0px 10px;
+    font-size: 15px;
   }
 
   p{
@@ -622,4 +623,7 @@ h1 {
 @media screen and (min-width: 480px) {
   #leftsidebar {width: 200px; float: left;}
   #main {margin-left: 216px;}
+  p{
+    font-size: 15px;
+  }
 }
