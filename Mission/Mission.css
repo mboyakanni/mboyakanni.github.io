@@ -64,12 +64,17 @@ p {
   position: absolute;
 }
 
-#move-left {
+.move-left {
   padding-left: 200px;
   margin-top: 50px;
 }
 
 #img{
-  width: 500px;
+  width: 200px;
   height: auto;
+  position: absolute;
+}
+
+#move-left{
+  padding-left: 210px;
 }
