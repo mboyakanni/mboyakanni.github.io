@@ -54,27 +54,3 @@ p {
   color: #818181;
 }
 
-#flex {
-  display: flex;
-}
-
-#love {
-  width: 200px;
-  height: auto;
-  position: absolute;
-}
-
-.move-left {
-  padding-left: 200px;
-  margin-top: 50px;
-}
-
-#img{
-  width: 200px;
-  height: auto;
-  position: absolute;
-}
-
-#move-left{
-  padding-left: 210px;
-}
