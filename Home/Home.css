@@ -49,9 +49,3 @@ body {
   background-color: cyan;
 }
 
-@media (min-width: 40em) {
-  /* Probably some parent element that limits the img width */
-  .main {
-    width: 80%;
-  }
-}
