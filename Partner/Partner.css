@@ -63,12 +63,14 @@ img {
 #main {
   padding-top: 20px;
   display: flex;
+  width: 100%;
 }
 
-#p {
-  padding-left: 170px;
-}
 
 #black {
   color: #111;
+}
+
+body{
+  width: 100%;
 }

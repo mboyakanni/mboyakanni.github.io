@@ -42,17 +42,10 @@
   color: black;
   padding: 10px 15px;
   border: none;
-  background-color: white;
-  margin-bottom: 500px;
 }
 /* Position and style the close button (top right corner) */
 
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
-.main {
-  margin-left: 250px; /* Same as the width of the sidebar */
-  padding: 0px 10px;
-}
-
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
   .sidenav {
@@ -92,12 +85,6 @@ a {
   color: #5165ff;
 }
 
-body {
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
-  color: #37559d;
-}
 
 a {
   color: #5165ff;

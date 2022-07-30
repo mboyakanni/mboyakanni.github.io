@@ -42,27 +42,17 @@
   color: black;
   padding: 10px 15px;
   border: none;
-  background-color: white;
-}
-
-img {
-  width: 500px;
-  height: auto;
-  position: absolute;
-}
-
-#row {
-  padding-left: 520px;
+  background-color: transparent;
 }
 
 h1 {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  padding-top: 0px;
+  font-size: larger;
 }
 
 p {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  color: gray;
+  color: red;
 }
 
 #p {
@@ -84,4 +74,98 @@ button {
   padding-top: 2px;
   padding-bottom: 2px;
   cursor: pointer;
+}
+
+p {
+  font-size: 100%;
+}
+
+body {
+  background: linear-gradient(253deg, #0cc898, #1797d2, #864fe1);
+  background-size: 300% 300%;
+  -webkit-animation: Background 25s ease infinite;
+  -moz-animation: Background 25s ease infinite;
+  animation: Background 25s ease infinite;
+}
+
+@-webkit-keyframes Background {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@-moz-keyframes Background {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes Background {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.full-screen {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: url(https://i.imgur.com/wCG2csZ.png);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  /* works with row or column */
+  flex-direction: column;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  text-align: center;
+}
+
+
+.button-line {
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  text-align: center;
+  font-size: 1.4em;
+  opacity: 0.8;
+  padding: 20px 40px;
+  text-decoration: none;
+  transition: all 0.5s ease;
+  margin: 0 auto;
+  display: block;
+  width: 100px;
+}
+
+.button-line:hover {
+  opacity: 1;
 }

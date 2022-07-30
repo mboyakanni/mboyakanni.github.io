@@ -60,12 +60,10 @@ p {
 }
 
 #main {
-  display: flex;
+  display: block;
 }
 
-#img {
-  padding-left: 20px;
-}
+
 
 h3 {
   color: palevioletred;
@@ -74,4 +72,13 @@ h3 {
 
 #description {
   padding-left: 20px;
+}
+
+body{
+  width: 100%;
+}
+
+img{
+  width: 50%;
+  height: auto;
 }

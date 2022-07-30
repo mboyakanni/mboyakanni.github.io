@@ -45,12 +45,26 @@
   background-color: white;
 }
 
-
 h1 {
   text-align: center;
 }
 
 p {
   color: #818181;
+}
+
+#flex {
+  display: block;
+}
+
+#love {
+  width: 200px;
+  height: auto;
+  position: absolute;
+  margin-bottom: 200px;
+}
+
+#move-left{
+  margin-top: 200px;
 }
 
