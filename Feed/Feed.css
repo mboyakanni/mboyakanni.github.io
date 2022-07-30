@@ -169,3 +169,8 @@ body {
 .button-line:hover {
   opacity: 1;
 }
+
+body{
+  width: 100%;
+  padding-left: 10px;
+}
