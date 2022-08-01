@@ -58,13 +58,19 @@ p {
 }
 
 #love {
-  width: 200px;
-  height: auto;
-  position: absolute;
-  margin-bottom: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 #move-left{
-  margin-top: 200px;
+
+}
+
+body{
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 

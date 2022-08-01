@@ -76,13 +76,9 @@ button {
   cursor: pointer;
 }
 
-p {
-  font-size: 100%;
-}
-
 body {
   background: linear-gradient(253deg, #0cc898, #1797d2, #864fe1);
-  background-size: 300% 300%;
+  width: 100%;
   -webkit-animation: Background 25s ease infinite;
   -moz-animation: Background 25s ease infinite;
   animation: Background 25s ease infinite;
@@ -173,4 +169,9 @@ body {
 body{
   width: 100%;
   padding-left: 10px;
+  padding-right: 10px;
+}
+
+div{
+  width: 100%;
 }

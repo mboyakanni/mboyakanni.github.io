@@ -1,4 +1,3 @@
-
 .sidepanel {
   height: 100%; /* Specify a height */
   width: 0; /* 0 width - change this with JavaScript */
@@ -40,51 +39,37 @@
 .openbtn {
   font-size: 20px;
   cursor: pointer;
-  color: white;
+  color: black;
   padding: 10px 15px;
   border: none;
-  background-color: black;
+  background-color: transparent;
 }
 
-
-img{
-  margin-top: 50px;
-  height: 450px;
-  width: auto;
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
-h1{
+h1 {
   text-align: center;
   color: rgb(7, 45, 7);
 }
 
-#fish{
-  display: block;
-}
-
-#maize{
-  display: block;
-}
-
-h3{
+h3 {
   color: green;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-p{
+p {
   color: #777;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
-body{
+body {
   width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
-img{
-  width: 50%;
-  height: auto;
-}
-
-div{
-  width: 100%;
-}

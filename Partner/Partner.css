@@ -39,10 +39,10 @@
 .openbtn {
   font-size: 20px;
   cursor: pointer;
-  color: white;
+  color: black;
   padding: 10px 15px;
   border: none;
-  background-color: black;
+  background-color: white;
 }
 
 h1 {
@@ -73,4 +73,6 @@ img {
 
 body{
   width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
 }
