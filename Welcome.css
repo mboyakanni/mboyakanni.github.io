@@ -488,3 +488,7 @@ button:focus {
   transform: translate(95vw, 90vh);
   transform: translate(95vw, 90vh);
 }
+
+textarea {
+  width: 75% !important;
+}
